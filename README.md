@@ -1,2 +1,1 @@
-# A_Team
-Group Project on Interactive Visualisation using D3js
+# Superstore-Sales-Visualisation-using-D3JS

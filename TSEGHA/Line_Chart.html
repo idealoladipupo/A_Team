@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        /* Define tooltip styles */
+        .tooltip {
+            position: absolute;
+            background-color: white;
+            border: 1px solid rgb(196, 50, 6);
+            padding: 8px;
+            pointer-events: none; /* Prevent tooltip from blocking mouse events */
+            display: none; /* Hide tooltip by default */
+            z-index: 9999; /* Higher z-index value */
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function getWidthHeight() {
+            document
+        }
+        
+        //****ACCESS DATA****
+        // Access JSON data file then build the chart using this data
+        d3.json("Top 10 Products.json").then(buildLineChart);
+
+        function buildLineChart(dataSet) {           
+            // Extract products and dates
+            let products = dataSet.Product;
+            let years = Object.keys(dataSet).filter(key => key !== 'Product');
+
+            // Create an array to store data for each year
+            let dataByYear = years.map(year => {
+                return products.map((product, index) => {
+                    return {
+                        "Product": product,
+                        "Year": year,
+                        "Value": +dataSet[year][index]
+                    };
+                });
+            });
+
+            //****CREATE THE SVG CANVAS****
+            const width = 1900; // Extend width further
+            const minHeight = 600;
+            const paddingTop = 150;
+            const paddingRight = 200;
+            const paddingLeft = 100; // Extend left padding
+            const paddingBottom = 100;
+
+            // Calculate the height dynamically based on the window height
+            const height = Math.max(minHeight, window.innerHeight) - 50;
+
+            const graphWidth = width - (paddingLeft + paddingRight);
+            const graphHeight = height - (paddingTop + paddingBottom);
+
+            const svg = d3.select('body')
+                .append('svg')
+                .attr('width', width)
+                .attr('height', height)
+                .style('border', '4px solid black');
+
+            // Define the linear gradient
+            const gradient = svg.append("defs")
+                .append("linearGradient")
+                .attr("id", "gradient")
+                .attr("x1", "0%")
+                .attr("y1", "0%")
+                .attr("x2", "100%")
+                .attr("y2", "100%");
+
+            gradient.append("stop")
+                .attr("offset", "0%")
+                .attr("stop-color", "#BFEFFF");
+
+            gradient.append("stop")
+                .attr("offset", "100%")
+                .attr("stop-color", "#FFFFFF");
+
+            // Apply the gradient as the background
+            svg.append('rect')
+                .attr('width', '100%')
+                .attr('height', '100%')
+                .style('fill', 'url(#gradient)');
+
+            //****SCALE THE DATA****
+            const xScale = d3.scaleBand()
+                .domain(products)
+                .range([0, graphWidth])
+                .padding(0.7); // Adjust padding
+
+            const yScale = d3.scaleLinear()
+                .domain([0, d3.max(dataByYear.flat(), d => d.Value)])
+                .range([graphHeight, 0]);
+
+            //****BUILD THE AXES****
+            const xAxis = d3.axisBottom(xScale);
+
+            const yAxis = d3.axisLeft(yScale);
+
+            const graphGroup = svg.append('g')
+                .attr('transform', `translate(${paddingLeft}, ${paddingTop})`)
+                .attr('id', 'graph-group');
+
+            const axesGroup = graphGroup.append('g')
+                .attr('id', 'axes-group');
+
+            axesGroup.append('g')
+                .attr('id', 'x-axis')
+                .attr('class', 'axes')
+                .attr('transform', `translate(0, ${graphHeight})`)
+                .call(xAxis)
+                .style('font-size', '10px')
+                .selectAll('text')
+                .attr('class', 'tick-label')
+                .attr('transform', 'translate(-10,30) rotate(-90)');
+
+            axesGroup.append('g')
+                .attr('id', 'y-axis')
+                .call(yAxis)
+                .selectAll('text')
+                .attr('class', 'tick-label');
+
+            //****PLOT THE DATA****
+            const line = d3.line()
+                .x(d => xScale(d.Product) + xScale.bandwidth() / 2)
+                .y(d => yScale(d.Value))
+               // .curve(d3.curveCardinal); // Use curved interpolation
+
+            const lines = graphGroup.selectAll('.line')
+                .data(dataByYear)
+                .enter()
+                .append('path')
+                .attr('class', 'line')
+                .attr('d', d => line(d))
+                .attr('fill', 'none')
+                .attr('stroke', (_, i) => d3.schemeCategory10[i % 10])
+                .attr('stroke-width', 3)
+
+                // Add tooltips
+                .on('mouseover', function(event, d) {
+
+                // Show tooltip on mouseover
+                tooltip.style('display', 'block')
+                    .html(d.map(item => `<strong>${item.Product}</strong>: $${item.Value.toLocaleString()}`).join("<br>"))
+                    .style('left', (event.pageX + 10) + 'px')
+                    .style('top', (event.pageY - 20) + 'px')
+                    .style('opacity', 8)
+                    .style('background-color', 'light')
+                    .style('border', '1px solid grey')
+                    .style('padding', '20px')
+                    .style('border-radius', '10px')
+                    .style('color', 'black');
+                })
+                .on('mouseout', function() {
+                  
+                    // Hide tooltip on mouseout
+                    tooltip.style('display', 'none');
+                });
+
+            // Function to handle line click event
+            function handleLineClick(event, d) {
+                const clickedLine = d3.select(this);
+                const currentOpacity = clickedLine.attr('opacity');
+                lines.attr('opacity', '0.2'); // Dim all lines
+                clickedLine.attr('opacity', 1); // Highlight or dim clicked line
+            }
+
+            // Add event listeners for highlighting and dimming lines
+            lines.on('click', handleLineClick);
+
+            svg.on('click', function (event) {
+                const isClickedInsideLine = event.target.closest('.line');
+                if (!isClickedInsideLine) {
+                    lines.attr('opacity', 1);
+                }
+            });
+
+           //****ADD LEGEND DROPDOWN****
+            const legendDropdown = d3.select('body')
+                .append('select')
+                .attr('id', 'legend-dropdown')
+                .style('position', 'absolute')
+                .style('top', `${paddingTop}px`)
+                .style('right', `${paddingRight}px`)
+                .style('width', '100px') // Adjust the width
+                .style('height', '30px') // Adjust the height
+                .style('color', 'white') // Set the text color to white
+                .style('font-weight', 'bold') // Set the font weight to bold
+                .style('font-size', '18px')
+                .style('background-color', 'grey') // Set the default background color to light grey
+                .on('change', function() {
+                    const selectedYear = this.value;
+
+                    // Reset opacity for all lines if "All Years" is selected
+                    if (selectedYear === 'All Years') {
+                        graphGroup.selectAll('.line').style('opacity', '1');
+                    } else {
+                        // Reset opacity for all lines except the selected year's line
+                        graphGroup.selectAll('.line').style('opacity', '0.2');
+
+                        // Highlight the selected year's line
+                        const selectedLine = graphGroup.selectAll('.line').filter(data => data[0].Year === selectedYear);
+                        selectedLine.style('opacity', '1');
+
+                        // Get the color of the selected year's line
+                        const selectedLineColor = selectedLine.attr('stroke');
+
+                        // Set the background color of the dropdown container to match the selected year's line color
+                        legendDropdown.style('background-color', selectedLineColor);
+                    }
+                });
+
+            // Add "All Years" option
+            legendDropdown.append('option')
+                .attr('value', 'All Years')
+                .text('All Years');
+
+            // Append options for each year to the dropdown
+            legendDropdown.selectAll('option')
+                .data(['All Years'].concat(years)) // Concatenate "All Years" with the array of years
+                .enter()
+                .append('option')
+                .attr('value', d => d)
+                .text(d => d);
+
+
+            // Append text underneath the dropdown
+            d3.select('body')
+                .append('text')
+                .text('Multi-Line Chart by Madonna Tsegha')
+                .style('position', 'absolute')
+                .style('top', `${paddingTop + 120}px`) // Adjust the top position as needed
+                .style('right', `${paddingRight - 120}px`)
+                .style('font-size', '24px')
+                .style('color', 'black');
+
+               
+            //****TOOLTIP****
+            const tooltip = d3.select('body').append('div')
+                .attr('class', 'tooltip')
+                .style('opacity', 0);
+
+            // CHART TITLE
+            svg.append('text')
+                .attr('x', width / 2)  // Set x position to half of the width
+                .attr('y', height / 10) // Set y position to half of the height
+                .attr('text-anchor', 'middle')  
+                .style('font-size', '60px') 
+                .style('top', '50px') 
+                .text('Top 10 Sub-Categories by Profit');
+
+            // Append x-axis label
+            axesGroup.append('text')
+                .attr('class', 'axis-label')
+                .attr('transform', `translate(${graphWidth / 2}, ${graphHeight + 80})`) // Increased y-coordinate
+                .style('text-anchor', 'middle')
+                .style('font-weight', 'bold') 
+                .style('font-size', '30px')
+                .text('Product Sub-Category');
+
+            // Append y-axis label
+            axesGroup.append('text')
+                .attr('class', 'axis-label')
+                .attr('transform', 'rotate(-90)')
+                .attr('x', -graphHeight / 2)
+                .attr('y', -paddingLeft / 1.1)
+                .attr('dy', '1em')
+                .style('text-anchor', 'middle')
+                .style('font-weight', 'bold') 
+                .style('font-size', '30px')
+                .text('Profit');
+        }
+    </script>
+</body>
+</html>

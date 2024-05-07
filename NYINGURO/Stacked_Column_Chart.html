@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stacked Bar Chart with Legend</title>
+    <script src="https://d3js.org/d3.v7.min.js" charset="utf-8"></script>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: linear-gradient(to bottom right, #bfefff, #ffffff);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      text {
+        font-size: 20px;
+      }
+      .bar {
+        fill-opacity: 0.8; /* Normal opacity */
+        transition: fill-opacity 0.2s ease;
+      }
+
+      .bar:hover {
+        fill-opacity: 1; /* Increased opacity on hover */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="chart-container">
+      <svg id="chart"></svg>
+    </div>
+
+    <script>
+      // SVG size
+
+      const width = 970; // Adjusted width
+      const height = 550; // Adjusted height
+      // const width = 1700; // Adjusted width
+      //const height = 900; // Adjusted height
+
+      // Load dataset
+      d3.json("h_chart.json").then(buildWaterFallChart);
+
+      function buildWaterFallChart(jsonData) {
+        // create SVG
+        const svg = d3
+          .select("#chart")
+          .attr("height", height)
+          .attr("width", width);
+
+        svg
+          .append("text")
+          .attr("transform", "translate(100,0)")
+          .attr("x", 50)
+          .attr("y", 50)
+          .text("Profits by Product Category")
+          .style("font-size", "50px");
+
+        // Define legend properties
+        const legendRectSize = 18; // Size of colored squares
+        const legendSpacing = 4; // Spacing between squares and text
+        const legendTopMargin = 200;
+        const legendRightMargin = 113;
+
+        const color = d3
+          .scaleOrdinal()
+          .domain(["Furniture", "OfficeSupplies", "Technology"]) // Adjust as needed
+          .range(d3.schemeCategory10);
+
+        // Create legend group
+        const legend = svg
+          .append("g")
+          .attr(
+            "transform",
+            `translate(${width - legendRightMargin},${legendTopMargin})`
+          );
+
+        // Append rectangles and text to legend
+        const legendRects = legend
+          .selectAll("rect")
+          .data(["Furniture", "OfficeSupplies", "Technology"]) // Adjust as needed
+          .enter()
+          .append("rect")
+          .attr("y", function (d, i) {
+            return i * (legendRectSize + legendSpacing);
+          })
+          .attr("width", legendRectSize)
+          .attr("height", legendRectSize)
+          .style("fill", color);
+
+        const legendText = legend
+          .selectAll("text")
+          .data(["Furniture", "OfficeSupplies", "Technology"]) // Adjust as needed
+          .enter()
+          .append("text")
+          .attr("x", legendRectSize + legendSpacing)
+          .attr("y", function (d, i) {
+            return i * (legendRectSize + legendSpacing) + legendRectSize / 2;
+          })
+          .text(function (d) {
+            return d;
+          })
+          .style("fill", "black")
+          .style("font-size", "15px")
+          .attr("alignment-baseline", "middle");
+
+        // find max Y value
+        const maxY = d3.max(jsonData.map((d, i) => d.GrandTotal));
+
+        // domain names
+        const YcatX = jsonData.map((d) => d.Year);
+        const xKeys = Object.keys(jsonData[0]).filter(
+          (key) => (key !== "Year") & "GrandTotal"
+        );
+        const Keys = ["Furniture", "OfficeSupplies", "Technology"];
+
+        //---------------------------
+        // Stacked Column Chart transformations
+        //---------------------------
+        const stack = d3.stack().keys(Keys);
+
+        const chartData = stack(jsonData);
+
+        const groups = svg
+          .append("g")
+          .attr("transform", `translate(150, 100)`) // Adjusted margin
+          .selectAll("g")
+          .data(chartData)
+          .join("g")
+          .style("fill", (d) => color(d.key));
+
+        // Draw Y axis
+        const yScale = d3
+          .scaleLinear()
+          .domain([0, maxY])
+          .range([height - 150, 0]) // Adjusted range
+          .nice();
+
+        const yAxis = d3.axisLeft().scale(yScale);
+
+        const yAxisGroup = groups
+          .append("g")
+          .attr("transform", `translate(2,0)`)
+          .call(yAxis);
+
+        yAxisGroup
+          .append("text")
+          .attr("y", 6)
+          .attr("dy", "-5.1em")
+          .style("stroke", "black")
+          .attr("transform", "rotate(-90)translate(-200,0)")
+          .text("Profit");
+
+        // Draw X axis
+        const xScale = d3
+          .scaleBand()
+          .domain(YcatX)
+          .range([0, width - 200]) // Adjusted range
+          .padding(0.4);
+
+        const xAxis = d3.axisBottom(xScale);
+
+        const xAxisGroup = groups
+          .append("g")
+          .attr("transform", `translate(0,${height - 150})`) // Adjusted position
+          .call(xAxis);
+
+        xAxisGroup
+          .append("text")
+          .style("stroke", "black")
+          .attr("x", width / 2)
+          .attr("y", 40)
+          .attr("font-size", "50px") // Increased font size
+          .text("Year");
+
+        // Define height calculation function
+        function heightCalc(d, i) {
+          return yScale(d[0]) - yScale(d[1]);
+        }
+
+        // Mouseout event handler function
+        function onMouseOut(event) {
+          thisBar = d3.select(this);
+
+          thisBar
+            .classed("highlight", false)
+            .transition()
+            .duration(400)
+            .attr("width", xScale.bandwidth())
+            .attr("y", function (d) {
+              return yScale(d[1]);
+            })
+            .attr("height", function (d) {
+              return yScale(d[0]) - yScale(d[1]);
+            });
+
+          d3.selectAll(".val").remove();
+        }
+
+        // Mouseover event function
+        function onMouseOver(event) {
+          const thisBar = d3.select(this);
+          const datum = thisBar.datum();
+          const categoryName = datum.key; // Get the name of the category
+
+          thisBar
+            .classed("highlight", true)
+            .transition()
+            .duration(400)
+            .attr("width", xScale.bandwidth() + 20)
+            .attr("y", function (d) {
+              return yScale(datum[1]);
+            })
+            .attr("height", function (d) {
+              return yScale(datum[0]) - yScale(datum[1]);
+            });
+
+          groups
+            .append("text")
+            .classed("val", true)
+            .attr("x", function () {
+              return xScale(datum.data.Year);
+            })
+            .attr("y", function () {
+              return yScale(datum[0]);
+            })
+            .text(function () {
+              // Add commas for readability and include the category name
+              return (
+                "\nTotal Profit: $" + d3.format(",.2f")([datum[1] - datum[0]])
+              );
+            })
+            .style("fill", "black");
+        }
+        groups
+          .selectAll("rect")
+          .data((d) => d)
+          .join("rect")
+          .classed("rect", true)
+          .classed("bar", true) // Apply the 'bar' class
+          .on("mouseover", onMouseOver)
+          .on("mouseout", onMouseOut)
+          .attr("x", (d, i) => xScale(d.data.Year))
+          .attr("y", yScale(0))
+          .attr("width", xScale.bandwidth())
+          .transition()
+          .ease(d3.easeLinear)
+          .duration(400)
+          .delay(function (d, i) {
+            return i * 50;
+          })
+          .attr("y", (d) => yScale(d[1]))
+          .attr("height", heightCalc);
+      }
+    </script>
+  </body>
+</html>

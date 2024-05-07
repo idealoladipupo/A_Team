@@ -1,0 +1,30 @@
+[
+ {
+   "Year": 2012,
+   "Furniture": 18131.07,
+   "OfficeSupplies": 7584.34,
+   "Technology": 28534.02,
+   "GrandTotal": 54249.43
+ },
+ {
+   "Year": 2013,
+   "Furniture": 10521.33,
+   "OfficeSupplies": 7496.98,
+   "Technology": 27497.2,
+   "GrandTotal": 45515.51
+ },
+ {
+   "Year": 2014,
+   "Furniture": 22786.29,
+   "OfficeSupplies": 20938.97,
+   "Technology": 40937.88,
+   "GrandTotal": 84663.14
+ },
+ {
+   "Year": 2015,
+   "Furniture": 30750.26,
+   "OfficeSupplies": 25642.52,
+   "Technology": 48099.58,
+   "GrandTotal": 104492.36
+ }
+]

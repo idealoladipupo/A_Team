@@ -1,0 +1,5002 @@
+[
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 221.98
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 3709.4
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 5175.17
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 2892.51
+ },
+ {
+   "Region": "Western Africa",
+   "Country": "Senegal",
+   "Sales": 2832.96
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2862.68
+ },
+ {
+   "Region": "Oceania",
+   "Country": "New Zealand",
+   "Sales": 1822.08
+ },
+ {
+   "Region": "Oceania",
+   "Country": "New Zealand",
+   "Sales": 5244.84
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 341.96
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 48.71
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 17.94
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Afghanistan",
+   "Sales": 4626.15
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Saudi Arabia",
+   "Sales": 2616.96
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 2221.8
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 3701.52
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1869.59
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 12.62
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 7958.58
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2565.59
+ },
+ {
+   "Region": "Eastern Africa",
+   "Country": "Tanzania",
+   "Sales": 3409.74
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Poland",
+   "Sales": 1977.72
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 242.94
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2754
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 5273.7
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 1713.84
+ },
+ {
+   "Region": "Central America",
+   "Country": "El Salvador",
+   "Sales": 2106.5
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "Taiwan",
+   "Sales": 1715.16
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 3069.74
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 247.84
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1878.72
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Dominican Republic",
+   "Sales": 1696.64
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2402.87
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 668.16
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2526.93
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 323.1
+ },
+ {
+   "Region": "Central Africa",
+   "Country": "Democratic Republic of the Congo",
+   "Sales": 3817.26
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 279.46
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 34.77
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 4141.02
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2875.1
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 3200.6
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 4518.78
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 5667.87
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 5785.02
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 3018.62
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 86.45
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2092.5
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2761.2
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2174.13
+ },
+ {
+   "Region": "South America",
+   "Country": "Uruguay",
+   "Sales": 3473.14
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 49.41
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Iran",
+   "Sales": 2108.64
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 18.9
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "Taiwan",
+   "Sales": 2197.5
+ },
+ {
+   "Region": "Eastern Africa",
+   "Country": "Mozambique",
+   "Sales": 2582.16
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1526.52
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 9.91
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1745.34
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 4191.51
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 8
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Bangladesh",
+   "Sales": 3063.27
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 18.7
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 4473
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 1502.01
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 5049
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 695.7
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 2188.05
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1920.36
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 1704
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Ukraine",
+   "Sales": 1858.68
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 3298.26
+ },
+ {
+   "Region": "Central America",
+   "Country": "Nicaragua",
+   "Sales": 2443.48
+ },
+ {
+   "Region": "Central Africa",
+   "Country": "Democratic Republic of the Congo",
+   "Sales": 3808.8
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 3427.15
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 3441.69
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2863.35
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 1439.98
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 1487.4
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 3200.04
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2301
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 5729.35
+ },
+ {
+   "Region": "North Africa",
+   "Country": "Morocco",
+   "Sales": 5301.24
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 477.67
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 88.07
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 3219.9
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 2487.81
+ },
+ {
+   "Region": "North Africa",
+   "Country": "Morocco",
+   "Sales": 2266.44
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 3068.36
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Bangladesh",
+   "Sales": 3728.43
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1581.48
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1916.73
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 171.29
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2432.16
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 28.85
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Philippines",
+   "Sales": 2465.82
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1847.52
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Austria",
+   "Sales": 2899.89
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2891.7
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2016.85
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 3155.54
+ },
+ {
+   "Region": "Central Africa",
+   "Country": "Democratic Republic of the Congo",
+   "Sales": 3856.14
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 3524.47
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2167.3
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 2556
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 1469.25
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 4448.83
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 65.78
+ },
+ {
+   "Region": "South America",
+   "Country": "Colombia",
+   "Sales": 2472.66
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 3739.18
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Netherlands",
+   "Sales": 2570.87
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 31.4
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 2875.77
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 1741.8
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1601.64
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 3670.8
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 36.29
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 1900.95
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 15.66
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 4544.1
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1455.12
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1943.19
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 2036.86
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 4355.17
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1695.87
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1505.98
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Malaysia",
+   "Sales": 1954.17
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 449.57
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 160.32
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 108.96
+ },
+ {
+   "Region": "South America",
+   "Country": "Ecuador",
+   "Sales": 1213.19
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1590.6
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2330.64
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 3278.58
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Thailand",
+   "Sales": 3741.52
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 67.8
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 3637.6
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 2455.88
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1024.68
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 167.94
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 24.56
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 2297.96
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 2671.41
+ },
+ {
+   "Region": "Eastern Africa",
+   "Country": "Somalia",
+   "Sales": 3834
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 49.12
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 3501.74
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1725.46
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1583.7
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 79.99
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2760.35
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Bangladesh",
+   "Sales": 3078.72
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Netherlands",
+   "Sales": 1983.14
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1112.78
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 3616.5
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 127.88
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2892.11
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 3263.4
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 46
+ },
+ {
+   "Region": "Central America",
+   "Country": "Guatemala",
+   "Sales": 3117.09
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 27.93
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 1888.7
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 3000.78
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 3801.63
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Saudi Arabia",
+   "Sales": 5211.12
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "Taiwan",
+   "Sales": 1356.03
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 3569.64
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 18.54
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 2910.08
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 3126.4
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 5276.99
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Thailand",
+   "Sales": 2645.38
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1637.01
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 3.05
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 2645.38
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 6.79
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 3238.31
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 2291.81
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 2124.5
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Belarus",
+   "Sales": 2757.78
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 1549.98
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 20.74
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Ukraine",
+   "Sales": 3146.4
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2456.62
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2228.64
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 4.41
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 4001.04
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 4876.88
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1788.82
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 3622.29
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 1242.59
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 4453.05
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Cambodia",
+   "Sales": 2673.36
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2046.2
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 5451.3
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 637.9
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 1722.28
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 210.68
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 1007.42
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 240.74
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 4624.29
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 1066.45
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 957.6
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 4864.32
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 841.57
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Philippines",
+   "Sales": 1433.84
+ },
+ {
+   "Region": "Southern Africa",
+   "Country": "South Africa",
+   "Sales": 2784.6
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 3063.27
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 231.72
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 196.45
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Dominican Republic",
+   "Sales": 2044.8
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 165.6
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1521
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2443.91
+ },
+ {
+   "Region": "Northern America",
+   "Country": "Canada",
+   "Sales": 137.31
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Iran",
+   "Sales": 1141.8
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1865.97
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "Japan",
+   "Sales": 6998.64
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 1091.25
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1094.22
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1320.62
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Malaysia",
+   "Sales": 2555.64
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Russia",
+   "Sales": 3498.72
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 35
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2272.86
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 5211.12
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2582.16
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 3194.55
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1705
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Philippines",
+   "Sales": 1538.72
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1381.32
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1181.55
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1696.25
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 190.9
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 314.35
+ },
+ {
+   "Region": "Southern Africa",
+   "Country": "South Africa",
+   "Sales": 1237.56
+ },
+ {
+   "Region": "North Africa",
+   "Country": "Egypt",
+   "Sales": 1274.7
+ },
+ {
+   "Region": "South America",
+   "Country": "Colombia",
+   "Sales": 3172.14
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 43.44
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 3979.29
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 51.84
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 17.9
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 12.48
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Azerbaijan",
+   "Sales": 2058
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 2539.88
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 2898.21
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1320.01
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "Lithuania",
+   "Sales": 2171.16
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 4448.22
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 12.84
+ },
+ {
+   "Region": "South America",
+   "Country": "Argentina",
+   "Sales": 2300.62
+ },
+ {
+   "Region": "North Africa",
+   "Country": "Egypt",
+   "Sales": 2615.94
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1066.68
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 2.22
+ },
+ {
+   "Region": "Southern Africa",
+   "Country": "Lesotho",
+   "Sales": 2544.6
+ },
+ {
+   "Region": "Oceania",
+   "Country": "New Zealand",
+   "Sales": 3694.68
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2214.85
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 1236.48
+ },
+ {
+   "Region": "Central America",
+   "Country": "Nicaragua",
+   "Sales": 1805.9
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 5.22
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 3.01
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 8.6
+ },
+ {
+   "Region": "Central America",
+   "Country": "Nicaragua",
+   "Sales": 1810.3
+ },
+ {
+   "Region": "Central America",
+   "Country": "Nicaragua",
+   "Sales": 2120.5
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1275
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1593.65
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1114.24
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 2944.08
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 3309.26
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 897.48
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Austria",
+   "Sales": 2056.05
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 2365.66
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1336.36
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "Japan",
+   "Sales": 3038.64
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 2698.65
+ },
+ {
+   "Region": "Southern Africa",
+   "Country": "Lesotho",
+   "Sales": 3799.08
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2756.34
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 983.88
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Vietnam",
+   "Sales": 1719.81
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 1421.54
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Cuba",
+   "Sales": 1053.69
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Netherlands",
+   "Sales": 1440.84
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2544.37
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 27.89
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Romania",
+   "Sales": 1554.48
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 1278
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 3474.08
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 2550
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 538.19
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 579.53
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 1024.38
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Turkey",
+   "Sales": 934.25
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 353.57
+ },
+ {
+   "Region": "Western Africa",
+   "Country": "Senegal",
+   "Sales": 3908.88
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 2142.3
+ },
+ {
+   "Region": "Oceania",
+   "Country": "New Zealand",
+   "Sales": 1900.58
+ },
+ {
+   "Region": "Central Africa",
+   "Country": "Cameroon",
+   "Sales": 1840.68
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 2624.04
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 3076.5
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Thailand",
+   "Sales": 3181.77
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 1392.63
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1296.24
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1682.91
+ },
+ {
+   "Region": "Central America",
+   "Country": "Nicaragua",
+   "Sales": 1278
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Russia",
+   "Sales": 2570.76
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 2332.96
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1582.2
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 71.98
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1512
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 186.14
+ },
+ {
+   "Region": "Southern Africa",
+   "Country": "South Africa",
+   "Sales": 2550
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 47.98
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 2285.7
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 1029.26
+ },
+ {
+   "Region": "Central America",
+   "Country": "Guatemala",
+   "Sales": 1058.28
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 5751.54
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 2442.07
+ },
+ {
+   "Region": "Oceania",
+   "Country": "New Zealand",
+   "Sales": 1190.52
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 3150.82
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 1599.9
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2063.4
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Hungary",
+   "Sales": 1269.9
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 3274.02
+ },
+ {
+   "Region": "Central America",
+   "Country": "Nicaragua",
+   "Sales": 848.32
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 94.2
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 2847.36
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Philippines",
+   "Sales": 1725.75
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 1479.31
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 22.51
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Singapore",
+   "Sales": 1282.23
+ },
+ {
+   "Region": "Central Africa",
+   "Country": "Angola",
+   "Sales": 2478.6
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 97.44
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "Japan",
+   "Sales": 959.76
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 34.65
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 4135.64
+ },
+ {
+   "Region": "Central America",
+   "Country": "El Salvador",
+   "Sales": 2325.28
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 5486.67
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 1523.66
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1625.24
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 28.4
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 734.94
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 13.97
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Romania",
+   "Sales": 1391.52
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 26.22
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 2461.06
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 36.56
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 18.94
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Malaysia",
+   "Sales": 1226.19
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1809.26
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1863
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 6
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1244.19
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2364.1
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1946.31
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 12.67
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 2283.71
+ },
+ {
+   "Region": "Central Africa",
+   "Country": "Democratic Republic of the Congo",
+   "Sales": 2549.76
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 3299.56
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Belgium",
+   "Sales": 2489.4
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 5.04
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 3.44
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1189.24
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 17.22
+ },
+ {
+   "Region": "Central America",
+   "Country": "El Salvador",
+   "Sales": 1269.6
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Pakistan",
+   "Sales": 3499.16
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2993.03
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 815.95
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "Finland",
+   "Sales": 1245
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1027.73
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1703.03
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 1803.08
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 676.49
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 969.36
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1637.01
+ },
+ {
+   "Region": "South America",
+   "Country": "Colombia",
+   "Sales": 1655.96
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 976.96
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 731.34
+ },
+ {
+   "Region": "Western Africa",
+   "Country": "Ghana",
+   "Sales": 1239
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Vietnam",
+   "Sales": 1680.61
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2190.75
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 935.17
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Austria",
+   "Sales": 1026.96
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2550
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Thailand",
+   "Sales": 2667.54
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1224.71
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 2605.92
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Iran",
+   "Sales": 2962.68
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2664
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 1513.56
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 1233.63
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Ukraine",
+   "Sales": 855.15
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 956.34
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 17.34
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 1838.52
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 4498.83
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1824.14
+ },
+ {
+   "Region": "Central America",
+   "Country": "Nicaragua",
+   "Sales": 2344
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2043.72
+ },
+ {
+   "Region": "Eastern Africa",
+   "Country": "Mozambique",
+   "Sales": 856.8
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 2509.36
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 819.94
+ },
+ {
+   "Region": "Central America",
+   "Country": "Nicaragua",
+   "Sales": 2797.25
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 1455.08
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 2189.09
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 5451.3
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Iran",
+   "Sales": 1291.08
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1526.52
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 3.98
+ },
+ {
+   "Region": "South America",
+   "Country": "Colombia",
+   "Sales": 1869.72
+ },
+ {
+   "Region": "Central America",
+   "Country": "Guatemala",
+   "Sales": 1815.24
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 959.76
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 3045.84
+ },
+ {
+   "Region": "Central America",
+   "Country": "Nicaragua",
+   "Sales": 2125
+ },
+ {
+   "Region": "Central Africa",
+   "Country": "Cameroon",
+   "Sales": 976.08
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1266.36
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 13.04
+ },
+ {
+   "Region": "Eastern Africa",
+   "Country": "Zambia",
+   "Sales": 2134.44
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 4748.44
+ },
+ {
+   "Region": "Southern Africa",
+   "Country": "South Africa",
+   "Sales": 1867.5
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1001.7
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 1.91
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 9892.74
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "Japan",
+   "Sales": 4306.32
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 899.55
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 763.92
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 2544.24
+ },
+ {
+   "Region": "Oceania",
+   "Country": "New Zealand",
+   "Sales": 1136.66
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2301
+ },
+ {
+   "Region": "Central Africa",
+   "Country": "Democratic Republic of the Congo",
+   "Sales": 3908.88
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 470.38
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 821.88
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2249.16
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 2528.26
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1461.14
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 3045.84
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 1103.97
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 344.7
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Philippines",
+   "Sales": 2152.96
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1244.1
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 2226.82
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1586.41
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 393.17
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Iraq",
+   "Sales": 3425.4
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 1136.94
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 677.64
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Iran",
+   "Sales": 731.34
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 287.91
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1272.72
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 1856.34
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 2295
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1622.18
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1063.44
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Hungary",
+   "Sales": 3449.88
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 585.46
+ },
+ {
+   "Region": "Western Africa",
+   "Country": "Liberia",
+   "Sales": 1429.44
+ },
+ {
+   "Region": "Southern Africa",
+   "Country": "South Africa",
+   "Sales": 1057.8
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1092.96
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Cuba",
+   "Sales": 1483
+ },
+ {
+   "Region": "South America",
+   "Country": "Colombia",
+   "Sales": 1792.4
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 2455.68
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Georgia",
+   "Sales": 1900.44
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Thailand",
+   "Sales": 3712.59
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2372.22
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 5725.35
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 2553.18
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 2003.52
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Poland",
+   "Sales": 1188.36
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2875.1
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Switzerland",
+   "Sales": 2380.5
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Albania",
+   "Sales": 1619.1
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 2821.72
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 2991.1
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Thailand",
+   "Sales": 1798.68
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Russia",
+   "Sales": 2544.84
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "Japan",
+   "Sales": 951.72
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Bangladesh",
+   "Sales": 2575.92
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 1699.83
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2634.55
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 3707.35
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 4298.85
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 3417.48
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 2080.32
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 840.6
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 471.92
+ },
+ {
+   "Region": "Central Africa",
+   "Country": "Chad",
+   "Sales": 1288.8
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 660.69
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Montenegro",
+   "Sales": 3234.24
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 2171.3
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2074.73
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 849.8
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1177.17
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 177.65
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 89.58
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Pakistan",
+   "Sales": 2863.08
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1253.07
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Iran",
+   "Sales": 3369.24
+ },
+ {
+   "Region": "Southern Africa",
+   "Country": "Namibia",
+   "Sales": 1464.12
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Netherlands",
+   "Sales": 1273.13
+ },
+ {
+   "Region": "Northern America",
+   "Country": "Canada",
+   "Sales": 29.94
+ },
+ {
+   "Region": "Central America",
+   "Country": "Guatemala",
+   "Sales": 1258.78
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Pakistan",
+   "Sales": 2584.01
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Philippines",
+   "Sales": 1482.39
+ },
+ {
+   "Region": "Central America",
+   "Country": "El Salvador",
+   "Sales": 1274.7
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 84.78
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Cuba",
+   "Sales": 2818.08
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Philippines",
+   "Sales": 1046.25
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 3187.2
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 4099.68
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 703.35
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2293.49
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1238.61
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 1715.06
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 39.82
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2841.66
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Portugal",
+   "Sales": 3399.66
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1607.76
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 840.15
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1236.33
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2488.56
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Dominican Republic",
+   "Sales": 1124.26
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 64.96
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 726.72
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 117.96
+ },
+ {
+   "Region": "Eastern Africa",
+   "Country": "Madagascar",
+   "Sales": 1519.92
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Russia",
+   "Sales": 1279.32
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 723.3
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Iran",
+   "Sales": 642.69
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2619
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Pakistan",
+   "Sales": 1704.87
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 1715.91
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1278
+ },
+ {
+   "Region": "North Africa",
+   "Country": "Morocco",
+   "Sales": 1234.56
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Belgium",
+   "Sales": 4195.2
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1765.4
+ },
+ {
+   "Region": "South America",
+   "Country": "Colombia",
+   "Sales": 1480.37
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 2968.98
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2301.14
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Austria",
+   "Sales": 1100.52
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2518.95
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 996.3
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 18.18
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Austria",
+   "Sales": 922.95
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1850.45
+ },
+ {
+   "Region": "Central America",
+   "Country": "Nicaragua",
+   "Sales": 664.56
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1547.1
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Vietnam",
+   "Sales": 2190.95
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 3242.88
+ },
+ {
+   "Region": "North Africa",
+   "Country": "Morocco",
+   "Sales": 2544.6
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Ukraine",
+   "Sales": 2605.56
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 1271.46
+ },
+ {
+   "Region": "Northern America",
+   "Country": "Canada",
+   "Sales": 34.02
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Saudi Arabia",
+   "Sales": 1207.56
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Singapore",
+   "Sales": 2051.1
+ },
+ {
+   "Region": "Central America",
+   "Country": "El Salvador",
+   "Sales": 2544.24
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 23.64
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 1314.45
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 12.62
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 980.32
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 21.96
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2470.5
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 32.06
+ },
+ {
+   "Region": "Oceania",
+   "Country": "New Zealand",
+   "Sales": 877.02
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 3.69
+ },
+ {
+   "Region": "Oceania",
+   "Country": "New Zealand",
+   "Sales": 1917.36
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2173.5
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 377.45
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 195.76
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 1814.25
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "Sweden",
+   "Sales": 1293.68
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 2477.55
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 259.14
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 723.3
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 2097.12
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 244.55
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "Japan",
+   "Sales": 3242.88
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 163.96
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 98.16
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 597.36
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Ukraine",
+   "Sales": 3955.14
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 796.82
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 2305.26
+ },
+ {
+   "Region": "Central America",
+   "Country": "El Salvador",
+   "Sales": 2833.76
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2077.32
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Cuba",
+   "Sales": 1916.88
+ },
+ {
+   "Region": "Central America",
+   "Country": "Nicaragua",
+   "Sales": 1212.5
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 102.93
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1622.57
+ },
+ {
+   "Region": "Oceania",
+   "Country": "New Zealand",
+   "Sales": 856.44
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 45.24
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 1361.04
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 3391.74
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Dominican Republic",
+   "Sales": 2375.3
+ },
+ {
+   "Region": "Southern Africa",
+   "Country": "South Africa",
+   "Sales": 889.02
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Russia",
+   "Sales": 1782.48
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 667.77
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1612.85
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 845.21
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2799.63
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Myanmar (Burma)",
+   "Sales": 1549.13
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 1696.4
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 935.5
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2036.81
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 980.52
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 18.69
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1654.64
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 2063.77
+ },
+ {
+   "Region": "North Africa",
+   "Country": "Morocco",
+   "Sales": 1457.28
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1693.23
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 28.68
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 1411.2
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 2039.8
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 5737.5
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1641.09
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Jamaica",
+   "Sales": 1380.9
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1917
+ },
+ {
+   "Region": "Oceania",
+   "Country": "New Zealand",
+   "Sales": 823.5
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 112.78
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 3180.75
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2910.19
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 15.94
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 5.23
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 910.35
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 856.68
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 1731.07
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 1330.99
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 11.65
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Dominican Republic",
+   "Sales": 1914.08
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 3393.12
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 50.12
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1446.6
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 3272.01
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Philippines",
+   "Sales": 3386.86
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2498.53
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Greece",
+   "Sales": 728.53
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Qatar",
+   "Sales": 2575.92
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 2546.46
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "Japan",
+   "Sales": 2888.76
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Malaysia",
+   "Sales": 1031.4
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 1237.44
+ },
+ {
+   "Region": "Central Africa",
+   "Country": "Democratic Republic of the Congo",
+   "Sales": 1018.32
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 600.6
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2756.94
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1534.87
+ },
+ {
+   "Region": "Oceania",
+   "Country": "New Zealand",
+   "Sales": 6439.8
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 1781.14
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 1363.2
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 3315.27
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 5.25
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2123.03
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 2478.84
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1894.54
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 41.28
+ },
+ {
+   "Region": "Northern America",
+   "Country": "Canada",
+   "Sales": 187.02
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1317.9
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 1350.09
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1839.18
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 13.36
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 1908.18
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 1264.47
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 4.18
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 965.16
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 748.12
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 943.87
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1447.44
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 1552.5
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 479.97
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 97.82
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 59.52
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 919.26
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 3045.84
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 766.87
+ },
+ {
+   "Region": "North Africa",
+   "Country": "Morocco",
+   "Sales": 2880.18
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 1403.36
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Dominican Republic",
+   "Sales": 1819.1
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 49.63
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2018.33
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2065.5
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1274.16
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2485.62
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 1560.24
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 3271.2
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 751.49
+ },
+ {
+   "Region": "Central America",
+   "Country": "Guatemala",
+   "Sales": 2120.8
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2102.83
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 820.49
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 91.96
+ },
+ {
+   "Region": "Eastern Africa",
+   "Country": "Tanzania",
+   "Sales": 553.44
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1718.17
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 2794.25
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1242.54
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 99.14
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1274.7
+ },
+ {
+   "Region": "North Africa",
+   "Country": "Morocco",
+   "Sales": 1553.76
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 2205.57
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 15.55
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 3227.7
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1395
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 2291.84
+ },
+ {
+   "Region": "Central Africa",
+   "Country": "Republic of the Congo",
+   "Sales": 1660.8
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2436.67
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 18.62
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Russia",
+   "Sales": 954.6
+ },
+ {
+   "Region": "Central America",
+   "Country": "El Salvador",
+   "Sales": 1903
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 16.9
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "Norway",
+   "Sales": 1590.9
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Iraq",
+   "Sales": 1467.36
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 1091.28
+ },
+ {
+   "Region": "Central America",
+   "Country": "Nicaragua",
+   "Sales": 2014.36
+ },
+ {
+   "Region": "Central Africa",
+   "Country": "Democratic Republic of the Congo",
+   "Sales": 3877.68
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 6.67
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 15.99
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2863.35
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Philippines",
+   "Sales": 2841.66
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 765.46
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1887.84
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 14.94
+ },
+ {
+   "Region": "Northern America",
+   "Country": "Canada",
+   "Sales": 410.88
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Cuba",
+   "Sales": 1801.6
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 779.28
+ },
+ {
+   "Region": "North Africa",
+   "Country": "Algeria",
+   "Sales": 613.26
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 166.24
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1837.56
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 3979.29
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 304.23
+ },
+ {
+   "Region": "Central America",
+   "Country": "Nicaragua",
+   "Sales": 1198.3
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 163.96
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1864.22
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Turkey",
+   "Sales": 1142.64
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1630.8
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "Lithuania",
+   "Sales": 1172.66
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Iran",
+   "Sales": 2021.88
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 836.93
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Saudi Arabia",
+   "Sales": 1302.78
+ },
+ {
+   "Region": "North Africa",
+   "Country": "Egypt",
+   "Sales": 2243.88
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1221.56
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1609.29
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1596.51
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 89.86
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2018.88
+ },
+ {
+   "Region": "Southern Africa",
+   "Country": "South Africa",
+   "Sales": 1885.32
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 3119.34
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 1964.25
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 88.75
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1653.8
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Saudi Arabia",
+   "Sales": 621
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2673.81
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 1307.97
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 1145.23
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 94.2
+ },
+ {
+   "Region": "Central America",
+   "Country": "Guatemala",
+   "Sales": 1902.11
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Switzerland",
+   "Sales": 1913.4
+ },
+ {
+   "Region": "Eastern Africa",
+   "Country": "Mozambique",
+   "Sales": 1854.72
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2958.98
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "South Korea",
+   "Sales": 810.72
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2953.58
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 2593.8
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 2051.01
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 37.3
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Austria",
+   "Sales": 1318.65
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Malaysia",
+   "Sales": 1120.77
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 46.69
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 3044.8
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 656.86
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 2518.95
+ },
+ {
+   "Region": "Western Africa",
+   "Country": "Nigeria",
+   "Sales": 1669.25
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 2476.08
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "Estonia",
+   "Sales": 1302.78
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 33.4
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2125.32
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 1954.44
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 856.92
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 3696.03
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1302.96
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Turkey",
+   "Sales": 1136.66
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1720.12
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 1043.93
+ },
+ {
+   "Region": "Western Africa",
+   "Country": "Cote d'Ivoire",
+   "Sales": 1253.76
+ },
+ {
+   "Region": "Central America",
+   "Country": "Honduras",
+   "Sales": 2180.24
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1306.47
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 24.82
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 20.96
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 775.54
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2012.05
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 2166.9
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 3271.2
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Cuba",
+   "Sales": 755.81
+ },
+ {
+   "Region": "Southern Africa",
+   "Country": "South Africa",
+   "Sales": 2182.68
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1285.56
+ },
+ {
+   "Region": "Central America",
+   "Country": "Guatemala",
+   "Sales": 1479.36
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 740.18
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "Norway",
+   "Sales": 1533.15
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Saudi Arabia",
+   "Sales": 2563.92
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2897.91
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Pakistan",
+   "Sales": 1582.11
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 14.59
+ },
+ {
+   "Region": "Central America",
+   "Country": "Guatemala",
+   "Sales": 2616.96
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 1399.11
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Switzerland",
+   "Sales": 3421.71
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 13.87
+ },
+ {
+   "Region": "South America",
+   "Country": "Paraguay",
+   "Sales": 820.08
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 14.98
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Iran",
+   "Sales": 1198.56
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1832.61
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 1857.06
+ },
+ {
+   "Region": "Central Africa",
+   "Country": "Democratic Republic of the Congo",
+   "Sales": 1752.6
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1850.46
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2337.15
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 788.4
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 715.53
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 2999.95
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 3094.56
+ },
+ {
+   "Region": "Central America",
+   "Country": "Guatemala",
+   "Sales": 882.03
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 1126.02
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 953.82
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2871.54
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2544.6
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 886.14
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 473.85
+ },
+ {
+   "Region": "Western Africa",
+   "Country": "Cote d'Ivoire",
+   "Sales": 1767.6
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 780.61
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 600.56
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 2711.7
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 2111.97
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Philippines",
+   "Sales": 1189.28
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1908.45
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 897.15
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 163.96
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Thailand",
+   "Sales": 1854.93
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 924.66
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1760.43
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Russia",
+   "Sales": 827.28
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Dominican Republic",
+   "Sales": 1510.96
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2098.32
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 1938.24
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 803.52
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1391.76
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 163.96
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 952.29
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 2927.28
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 51.07
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 51.45
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 19.44
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Pakistan",
+   "Sales": 2117.22
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Malaysia",
+   "Sales": 2747.7
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Malaysia",
+   "Sales": 1014.72
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Bangladesh",
+   "Sales": 1591.56
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 533.22
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 2124.5
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 1053.87
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 5.88
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 1248.84
+ },
+ {
+   "Region": "Central America",
+   "Country": "Guatemala",
+   "Sales": 2040.92
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1068.71
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 875.22
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1403.08
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Poland",
+   "Sales": 1743.96
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Iraq",
+   "Sales": 1071.84
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Italy",
+   "Sales": 925.02
+ },
+ {
+   "Region": "South America",
+   "Country": "Argentina",
+   "Sales": 1682.75
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1944.9
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 3040.8
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 15.48
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 1003.35
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 11.96
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 808.73
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2764.33
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 961.48
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Czech Republic",
+   "Sales": 457.14
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 254.06
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1933.2
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 704.05
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1355.13
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 99.37
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 194.53
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2819.52
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2571.12
+ },
+ {
+   "Region": "Central Africa",
+   "Country": "Central African Republic",
+   "Sales": 976.08
+ },
+ {
+   "Region": "Oceania",
+   "Country": "New Zealand",
+   "Sales": 607.32
+ },
+ {
+   "Region": "Northern America",
+   "Country": "Canada",
+   "Sales": 87.84
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 33.57
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 1697.58
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2063.4
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 632.04
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2906.4
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2572.74
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 16.03
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Belgium",
+   "Sales": 1583.82
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 24.67
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 3.74
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1656.72
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2015.5
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 2219.18
+ },
+ {
+   "Region": "Oceania",
+   "Country": "New Zealand",
+   "Sales": 2533.92
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 1410.4
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "Japan",
+   "Sales": 1773.72
+ },
+ {
+   "Region": "Western Africa",
+   "Country": "Benin",
+   "Sales": 1377.9
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 2582.16
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 773.94
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1257.46
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 1003.62
+ },
+ {
+   "Region": "Central America",
+   "Country": "Nicaragua",
+   "Sales": 2429.44
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 348.56
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 977.02
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 2891.7
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 1577.94
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2042.82
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 997.8
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1411.34
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Iran",
+   "Sales": 1647
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1313.71
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 972.57
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1273.56
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 1908.18
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 195.96
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2398.37
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Ukraine",
+   "Sales": 680.28
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "Norway",
+   "Sales": 964.08
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 575.92
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 1709.24
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Iraq",
+   "Sales": 929.34
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 171.2
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 79.9
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2383.86
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 1891.5
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Dominican Republic",
+   "Sales": 912.24
+ },
+ {
+   "Region": "Central America",
+   "Country": "Nicaragua",
+   "Sales": 947.22
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 1983.02
+ },
+ {
+   "Region": "Central America",
+   "Country": "Nicaragua",
+   "Sales": 2146.6
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Spain",
+   "Sales": 2879.82
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1622.01
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1503.68
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 21.36
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Indonesia",
+   "Sales": 893.56
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Cuba",
+   "Sales": 1143.44
+ },
+ {
+   "Region": "North Africa",
+   "Country": "Morocco",
+   "Sales": 2280.6
+ },
+ {
+   "Region": "South America",
+   "Country": "Bolivia",
+   "Sales": 1401.84
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 2088.24
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2194.53
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 1527.12
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "Japan",
+   "Sales": 972.62
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 794.7
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Malaysia",
+   "Sales": 2761.2
+ },
+ {
+   "Region": "Eastern Europe",
+   "Country": "Russia",
+   "Sales": 3312.24
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 825.79
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 30.4
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 3180.3
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1860
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 2582.16
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Malaysia",
+   "Sales": 881.1
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 1622.18
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 1677.19
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "Japan",
+   "Sales": 1001.88
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 16.5
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 554.53
+ },
+ {
+   "Region": "Central America",
+   "Country": "El Salvador",
+   "Sales": 2120.8
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "Iran",
+   "Sales": 1531.2
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Qatar",
+   "Sales": 1572.84
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 1236.33
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 6.69
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 759.66
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 2951.99
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 3.36
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 627.28
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 1394.95
+ },
+ {
+   "Region": "Southern Europe",
+   "Country": "Albania",
+   "Sales": 553.92
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 3873.24
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 791.19
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2470.5
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 2120.7
+ },
+ {
+   "Region": "Oceania",
+   "Country": "New Zealand",
+   "Sales": 759.06
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 1581.03
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Vietnam",
+   "Sales": 1161.2
+ },
+ {
+   "Region": "Eastern Africa",
+   "Country": "Tanzania",
+   "Sales": 642.72
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 1308.48
+ },
+ {
+   "Region": "Southern Asia",
+   "Country": "India",
+   "Sales": 3547.44
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 724.8
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 1292.94
+ },
+ {
+   "Region": "South America",
+   "Country": "Chile",
+   "Sales": 803.52
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 275.97
+ },
+ {
+   "Region": "Central America",
+   "Country": "Mexico",
+   "Sales": 1011.7
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Cuba",
+   "Sales": 2419.2
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Dominican Republic",
+   "Sales": 803.04
+ },
+ {
+   "Region": "Caribbean",
+   "Country": "Martinique",
+   "Sales": 1773.72
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 1893.3
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 777.24
+ },
+ {
+   "Region": "Oceania",
+   "Country": "Australia",
+   "Sales": 689.09
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 737.91
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "Germany",
+   "Sales": 2570.76
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "United Kingdom",
+   "Sales": 1199.76
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 3216.24
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 1274.24
+ },
+ {
+   "Region": "Northern Europe",
+   "Country": "Finland",
+   "Sales": 2145.72
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 545.88
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "Taiwan",
+   "Sales": 882.15
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 164.88
+ },
+ {
+   "Region": "Western Europe",
+   "Country": "France",
+   "Sales": 895.05
+ },
+ {
+   "Region": "Western Asia",
+   "Country": "Syria",
+   "Sales": 1570.18
+ },
+ {
+   "Region": "Eastern Asia",
+   "Country": "China",
+   "Sales": 2614.69
+ },
+ {
+   "Region": "Northern America",
+   "Country": "United States",
+   "Sales": 69.48
+ },
+ {
+   "Region": "Oceania",
+   "Country": "New Zealand",
+   "Sales": 636.78
+ },
+ {
+   "Region": "South America",
+   "Country": "Brazil",
+   "Sales": 2751.2
+ },
+ {
+   "Region": "Southeastern Asia",
+   "Country": "Thailand",
+   "Sales": 1587
+ }
+]

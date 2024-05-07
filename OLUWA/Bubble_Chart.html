@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Total Sales Across Global Regions and Countries</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: linear-gradient(to bottom right, #bfefff, #ffffff);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+      }
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+
+      .bubble {
+        fill-opacity: 0.7;
+        transition: fill-opacity 0.2s;
+        stroke-width: 5px;
+      }
+
+      .bubble:hover {
+        fill-opacity: 1;
+      }
+
+      .selected {
+        fill-opacity: 1 !important;
+      }
+
+      .label {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        text-anchor: middle;
+        pointer-events: none;
+      }
+
+      .total-sales {
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+        text-anchor: middle;
+        pointer-events: none;
+        dominant-baseline: hanging;
+      }
+
+      .popup {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: pink;
+        border: 1px solid black;
+        padding: 20px;
+        max-width: 100%;
+        overflow-x: visible;
+        max-height: 80%;
+        overflow-y: visible;
+        z-index: 9999;
+        display: none;
+      }
+
+      circle {
+        fill-opacity: 1.2;
+      }
+
+      circle:hover {
+        fill-opacity: 1.5;
+        stroke-width: 3px;
+        stroke: #0a0a0a;
+      }
+
+      .donut-container {
+        width: 70%;
+        height: 100%;
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 45px;
+        margin-left: -40px;
+        border-radius: 4px;
+        position: relative; /* Added position relative */
+      }
+
+      .tooltip {
+        position: absolute;
+        display: inline-block;
+        background-color: white;
+        border: 1px solid black;
+        padding: 5px;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        pointer-events: none;
+      }
+      .legend-container {
+        width: 30%;
+        height: 300px;
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 10px;
+        box-sizing: border-box;
+        margin-left: -10px;
+      }
+
+      .legend {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        margin-top: 20px;
+      }
+
+      .legend-item {
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+      }
+
+      .legend-color {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        border-radius: 50%;
+      }
+
+      .legend-text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .percentage {
+        font-size: 10px;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <svg id="chart">
+      <!-- Add heading text with style attributes -->
+      <text
+        x="50%"
+        y="10%"
+        class="heading"
+        text-anchor="middle"
+        font-size="50px"
+        font-family="Helvetica, sans-serif"
+        fill="Black"
+      >
+        Total Sales Across Global Regions
+      </text>
+    </svg>
+
+    <div id="popup" class="popup">
+      <h2
+        id="popup-heading"
+        style="
+          font-size: 24px;
+          font-family: 'Arial', sans-serif;
+          color: #333333;
+          font-weight: bold;
+          text-align: center;
+        "
+      >
+        Total Sales by Countries within <span id="selected-region"></span>
+      </h2>
+      <div class="donut-container">
+        <div
+          class="donut"
+          id="donutChart"
+          style="width: 700px; height: 350px"
+        ></div>
+        <!-- <div id="tooltip" class="tooltip" style="opacity: 0;"></div> -->
+        <div class="tooltip"></div>
+        <!-- Moved tooltip inside the donut-container -->
+      </div>
+      <div class="legend-container">
+        <div class="legend" id="legend"></div>
+      </div>
+      <button onclick="closePopup()">Close</button>
+    </div>
+    <script>
+      d3.json("Sales.json").then(function (data) {
+        const svg = d3.select("#chart");
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+
+        const customColors = [
+          "#1f77b4",
+          "#ff7f0e",
+          "#2ca02c",
+          "#d62728",
+          "#9467bd",
+          "#8c564b",
+          "#e377c2",
+          "#7f7f7f",
+          "#bcbd22",
+          "#17becf",
+          "#aec7e8",
+          "#ffbb78",
+          "#98df8a",
+          "#ff9896",
+          "#c5b0d5",
+          "#c49c94",
+          "#f7b6d2",
+          "#c7c7c7",
+          "#dbdb8d",
+          "#9edae5",
+          "#7f7f7f",
+          "#393b79",
+          "#5254a3",
+          "#6b6ecf",
+          "#9c9ede",
+          "#637939",
+          "#8ca252",
+          "#b5cf6b",
+          "#cedb9c",
+          "#8c6d31",
+          "#bd9e39",
+          "#e7ba52",
+          "#e7cb94",
+          "#843c39",
+          "#ad494a",
+          "#d6616b",
+          "#e7969c",
+          "#7b4173",
+          "#a55194",
+          "#ce6dbd",
+          "#de9ed6",
+          "#6b6b6b",
+          "#a55194",
+          "#ce6dbd",
+          "#de9ed6",
+        ];
+        const colorScale = d3.scaleOrdinal(customColors);
+        const salesByRegion = d3.rollups(
+          data,
+          (v) => d3.sum(v, (d) => d.Sales),
+          (d) => d.Region
+        );
+
+        const maxSales = d3.max(salesByRegion, (d) => d[1]);
+        const radiusScale = d3
+          .scaleLinear()
+          .domain([0, maxSales])
+          .range([40, 70]); // Adjusted for smaller bubble sizes
+
+        const angleScale = d3
+          .scaleLinear()
+          .domain([0, salesByRegion.length])
+          .range([0, 2 * Math.PI]);
+
+        const simulation = d3
+          .forceSimulation(salesByRegion)
+          .force("charge", d3.forceManyBody().strength(-10))
+          .force("center", d3.forceX(width / 2).strength(0.05)) // Center horizontally
+          .force("y", d3.forceY(height / 2)) // Center vertically
+          .force(
+            "collision",
+            d3.forceCollide().radius((d) => radiusScale(d[1]))
+          );
+
+        const bubbles = svg
+          .selectAll(".bubble")
+          .data(salesByRegion)
+          .enter()
+          .append("circle")
+          .attr("class", "bubble")
+          .attr("r", (d) => radiusScale(d[1]))
+          .attr("fill", (d, i) => colorScale(i))
+          .attr("cx", (d, i) => (i + 1) * (width / (salesByRegion.length - 1))) // Adjust x-coordinate
+          .attr("cy", height / 2) // Keep y-coordinate centered vertically
+          .on("click", function (event, d) {
+            console.log("Bubble clicked:", d[0]);
+            d3.select(this).classed("selected", true); // Mark the selected bubble
+            showPopup(d[0]); // Show the popup when bubble is clicked
+            renderDonutChart(d[0], data); // Call function to render donut chart
+          });
+
+        const labels = svg
+          .selectAll(".label")
+          .data(salesByRegion)
+          .enter()
+          .append("text")
+          .attr("class", "label")
+          .text((d) => d[0])
+          .style("font-size", "12px")
+          .attr("text-anchor", "middle")
+          .attr("dy", ".35em");
+
+        const totalSales = svg
+          .selectAll(".total-sales")
+          .data(salesByRegion)
+          .enter()
+          .append("text")
+          .attr("class", "total-sales")
+          .text(
+            (d) =>
+              `$${d[1].toLocaleString("en-US", { maximumFractionDigits: 2 })}`
+          ) // Display total sales with commas and rounded to 2 decimal places
+          .style("font-size", "10px")
+          .attr("text-anchor", "middle")
+          .attr("dy", "1em"); // Adjust vertical position of total sales text
+
+        simulation.on("tick", () => {
+          bubbles.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
+
+          labels.attr("x", (d) => d.x).attr("y", (d) => d.y);
+
+          totalSales.attr("x", (d) => d.x).attr("y", (d) => d.y);
+        });
+      });
+
+      function renderDonutChart(region, data) {
+        // Filter data for the selected region
+        const regionData = data.filter((d) => d.Region === region);
+
+        // Roll up sales data by country
+        const salesByCountry = d3.rollups(
+          regionData,
+          (v) => d3.sum(v, (d) => d.Sales),
+          (d) => d.Country
+        );
+
+        // Create an array of objects with country and total sales
+        const salesData = salesByCountry.map((d) => ({
+          country: d[0],
+          sales: d[1],
+        }));
+
+        // Define dimensions for the chart
+        const width = 300;
+        const height = 300;
+        const radius = Math.min(width, height) / 2;
+
+        // Define SVG for the chart
+        const svg = d3
+          .select("#donutChart")
+          .append("svg")
+          .attr("width", width)
+          .attr("height", height)
+          .append("g")
+          .attr("transform", `translate(${width / 2},${height / 2})`);
+
+        // Define pie function
+        const pie = d3
+          .pie()
+          .value((d) => d.sales)
+          .sort(null);
+
+        // Generate pie slices
+        const arcs = pie(salesData);
+
+        // Define arc function for the donut
+        const arc = d3
+          .arc()
+          .innerRadius(radius * 0.5)
+          .outerRadius(radius);
+
+        // Define color scale
+        const color = d3
+          .scaleOrdinal()
+          .domain(salesData.map((d) => d.country))
+          .range(d3.schemeCategory10);
+
+        // Append arcs
+        svg
+          .selectAll("path")
+          .data(arcs)
+          .enter()
+          .append("path")
+          .attr("d", arc)
+          .attr("fill", (d) => color(d.data.country))
+          .on("mouseover", function (event, d) {
+            console.log("Mouseover event triggered. Data object (d):", d);
+            if (d && d.data) {
+              console.log("Sales:", d.data.sales);
+              const percentage = (
+                ((d.endAngle - d.startAngle) / (2 * Math.PI)) *
+                100
+              ).toFixed(2);
+              const sales = d.data.sales;
+              const tip = d3.select(".tooltip");
+              tip
+                .style("left", event.pageX + 20 + "px")
+                .style("top", event.pageY + 20 + "px")
+                .style("opacity", 1)
+                .html(
+                  "<strong>" +
+                    d.data.country +
+                    "</strong><br> % of Sales: " +
+                    percentage +
+                    "% <br> Sales: $" +
+                    sales.toLocaleString(2)
+                );
+            } else {
+              console.error(
+                "Data object (d) does not contain 'data' property or it is undefined."
+              );
+            }
+          })
+          .on("mousemove", function (event) {
+            const [x, y] = d3.pointer(event);
+            d3.select(".tooltip")
+              .style("left", x + 10 + "px")
+              .style("top", y + 10 + "px");
+          })
+          .on("mouseout", function (d) {
+            d3.select(".tooltip").style("opacity", 0);
+          });
+
+        // Legend
+        const legend = d3.select("#legend");
+        const legendItems = legend
+          .selectAll(".legend-item")
+          .data(salesData)
+          .enter()
+          .append("div")
+          .attr("class", "legend-item");
+
+        legendItems
+          .append("div")
+          .attr("class", "legend-color")
+          .style("background-color", (d) => color(d.country));
+
+        legendItems
+          .append("div")
+          .attr("class", "legend-text")
+          .text((d) => d.country);
+      }
+
+      function showPopup(region) {
+        // Show the popup
+        document.getElementById("popup").style.display = "block";
+
+        // Update the selected region
+        document.getElementById("selected-region").textContent = region;
+      }
+
+      function closePopup() {
+        // Hide the popup
+        document.getElementById("popup").style.display = "none";
+        // Clear existing chart content
+        document.getElementById("donutChart").innerHTML = "";
+        // Clear legend
+        document.getElementById("legend").innerHTML = "";
+      }
+    </script>
+  </body>
+</html>
